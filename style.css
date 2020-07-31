@@ -1,0 +1,100 @@
+h1 {
+    background-color: blue;
+    }
+    
+    * {
+        border: solid; 
+    }
+    .origami {
+        background-color: sandybrown;
+        display : flex;
+        justify-content:space-between ;
+    }
+    
+    .bird{
+        display : flex;
+        justify-content: space-evenly;
+    }
+    
+    .flower{
+        display: flex;
+        justify-content: flex-end;
+    
+    
+    }
+    .buterrfly{
+        display: flex;
+        justify-content: flex-end;
+    
+    
+    }
+    .body{
+        background-color:lightslategray;
+    }
+    a:link {
+        color:blueviolet;
+    }
+    a:visited{
+        color:blueviolet;
+    }
+    .bird{
+        position: relative;
+    
+    }
+    .bird p{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,-50%) ;
+        opacity: 0;
+    }
+    .bird:hover p{
+        opacity: 1;
+    
+    }
+    .bird:hover img{
+        opacity: 0.33;
+    }
+    
+    
+    .flower{
+        position: relative;
+    
+    }
+    .flower p{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,-50%) ;
+        opacity: 0;
+    }
+    .flower:hover p{
+        opacity: 1;
+    
+    }
+    .flower:hover img{
+        opacity: 0.33;
+    
+    }
+   
+    .buterrfly{
+        position: relative;
+    
+    }
+    .buterrfly p{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,-50%) ;
+        opacity: 0;
+    }
+    .buterrfly:hover p{
+        opacity: 1;
+    
+    }
+    .buterrfly:hover img{
+        opacity: 0.33;
+    }
+    
+    
+    
